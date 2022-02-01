@@ -23,7 +23,7 @@ class Gif {
     //if (0 < mod && mod < frames) mod++;
     //if (mod > frames) mod--;
     if (cuFrame == frames) cuFrame = 0;
-    image(gif[cuFrame], width/2, height/2, width, height);
+    image(gif[cuFrame], width/2, height/2-50, width/2, height/2+100);
     cuFrame++;
   }
 }

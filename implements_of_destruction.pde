@@ -58,7 +58,9 @@ public class bullette extends GameObject {
     noStroke();
     fill(255);
     //circle(loc.x, loc.y, size);
-    image(barf, loc.x, loc.y);
+    image(barf, loc.x, loc.y, 30, 30);
+    //he's shooting lembas
+    //presumably out of his stomach
   }
 
   public void act() {

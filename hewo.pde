@@ -3,6 +3,7 @@ class Hero extends GameObject {
   float speed;
   wephon equipped;
 
+  //our dear ringbearer
   Hero() {
     super();
     hp = 100;
@@ -17,7 +18,7 @@ class Hero extends GameObject {
     stroke(0);
     noFill();
     //circle(loc.x, loc.y, 20);
-    image(frodo, loc.x, loc.y);
+    image(frodo, loc.x, loc.y, 80, 80);
   }
 
   void act() {

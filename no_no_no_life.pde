@@ -15,7 +15,8 @@ boolean hadpressed, released;
 Button playbutton;
 boolean w, a, s, d, space;
 //gifs
-String pre = "frame_", post = "_delay-0.06s.png";
+//String pre = "frame_", post = "_delay-0.06s.png";
+String pre = "sting_", post = ".png";
 Gif giffy;
 //map
 PImage map, frodo, barf;
@@ -47,7 +48,7 @@ void setup() {
   myObjects.add(four);
   myObjects.add(five);
   //giffies
-  giffy = new Gif(56, pre, post);
+  giffy = new Gif(40, pre, post);
   //coloUrs
   northRoom = #FFFFFF;
   eastRoom = #FFFFFF;
